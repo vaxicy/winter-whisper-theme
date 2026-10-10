@@ -1,0 +1,96 @@
+{
+  "manifest_version": 3,
+  "name": "Winter Whisper Theme",
+  "version": "1.0.0",
+  "description": "A calm winter Chrome theme in muted lavender, soft periwinkle, and icy blue, bringing a quiet touch to everyday browsing.",
+  "icons": {
+    "128": "logo/logo128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [
+        169,
+        164,
+        208
+      ],
+      "frame_inactive": [
+        169,
+        164,
+        208
+      ],
+      "toolbar": [
+        214,
+        219,
+        245
+      ],
+      "tab_text": [
+        55,
+        52,
+        73
+      ],
+      "tab_background_text": [
+        55,
+        52,
+        73
+      ],
+      "tab_background_text_inactive": [
+        55,
+        52,
+        73
+      ],
+      "bookmark_text": [
+        55,
+        52,
+        73
+      ],
+      "toolbar_text": [
+        55,
+        52,
+        73
+      ],
+      "toolbar_button_icon": [
+        55,
+        52,
+        73
+      ],
+      "omnibox_background": [
+        247,
+        249,
+        255
+      ],
+      "omnibox_text": [
+        55,
+        52,
+        73
+      ],
+      "ntp_background": [
+        232,
+        238,
+        253
+      ],
+      "ntp_text": [
+        55,
+        52,
+        73
+      ],
+      "ntp_link": [
+        104,
+        98,
+        135
+      ],
+      "ntp_header": [
+        104,
+        98,
+        135
+      ],
+      "button_background": [
+        169,
+        164,
+        208
+      ]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}

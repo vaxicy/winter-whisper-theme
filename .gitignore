@@ -1,0 +1,19 @@
+# Local / sensitive / tooling
+.codebuddy/
+.DS_Store
+Thumbs.db
+
+# Scratch file used to pass multi-word commit messages on Windows
+commit_msg.txt
+
+# Generated distribution artifacts
+*.zip
+*.crx
+
+# Python caches from the asset scripts
+__pycache__/
+*.pyc
+
+# Chrome generated cache (appears after "Load unpacked" / packaging)
+Cached Theme.pak
+*.pak

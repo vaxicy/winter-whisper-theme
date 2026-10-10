@@ -1,0 +1,17 @@
+NAME
+Winter Whisper Theme
+
+SUMMARY
+A calm winter Chrome theme in muted lavender, soft periwinkle, and icy blue, bringing a quiet touch to everyday browsing.
+
+DESCRIPTION
+Winter Whisper Theme brings a quiet winter moment to Chrome. A muted lavender frame pairs with a pale periwinkle toolbar and active tab, while an icy blue new tab page keeps your browsing space light and calm. Deep gray-violet text and icons keep the interface clear and easy to read.
+
+Inspired by soft snow and a gentle winter breeze, this minimal theme uses solid colors throughout. A flat snowflake icon adds a small seasonal touch. No wallpaper, no extra scripts, and no permissions required.
+
+PROMO TAGLINE
+A quiet winter moment in every tab.
+
+MARQUEE COPY
+Soft lavender. Winter blue.
+A calmer space for everyday browsing.
