@@ -103,7 +103,7 @@ These are illustrative English HTML/CSS layouts rendered by headless Chromium an
 | `scripts/generate-logo.py` | Draws the transparent 128x128 icon with Pillow |
 | `scripts/generate-store-assets.py` | Renders both screenshots and both promo tiles from `manifest.json` colours |
 | `scripts/requirements.txt` | Python dependencies for the asset generators |
-| `scripts/package.ps1` | Builds the release ZIP and the store upload ZIP |
+| `scripts/package.ps1` | Builds the release ZIP |
 | `LICENSE` | Non-Commercial License (bilingual) |
 | `.gitignore` | Keeps local caches, nested archives and scratch files out of the repository |
 
@@ -125,10 +125,7 @@ The logo script exports only `logo/logo128.png` with a transparent background an
 powershell -ExecutionPolicy Bypass -File scripts/package.ps1 -Force
 ```
 
-Writes two archives to the default folder `D:\迅雷下载\vibe coding`:
-
-- `winter-whisper-theme-1.0.0.zip` — the complete project with `manifest.json` at the archive root.
-- `winter-whisper-theme-1.0.0-upload.zip` — `manifest.json` plus the `logo` folder only, for the Chrome Web Store upload form.
+Writes one archive to the default folder `D:\迅雷下载\vibe coding`: `winter-whisper-theme-1.0.0.zip`, with `manifest.json` at the archive root. The same file serves both purposes — **Load unpacked** locally and the Chrome Web Store upload form.
 
 `-Force` overwrites existing archives, and `-OutputDirectory` sends them somewhere else. The script checks the manifest inside the ZIP against this project, confirms that every file the manifest references is present, and rejects repository metadata, local caches and nested archives. The screenshots and promo tiles travel inside the full ZIP, but the store form still needs them uploaded one by one: `store-assets/screenshots/en/` fills the two screenshot slots, `store-assets/promo/1400x560.png` is the marquee tile and `store-assets/promo/440x280.png` is the small tile.
 
